@@ -1,0 +1,30 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.not-found-img {
+  width: 400px;
+}
+.not-found-heading {
+  font-size: 24px;
+  margin-top: 16px;
+  color: #334155;
+}
+
+.not-found-description {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.go-home-btn {
+  padding: 8px 16px;
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

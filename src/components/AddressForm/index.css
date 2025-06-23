@@ -1,0 +1,55 @@
+.form-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.form-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.address-input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  resize: vertical;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.address-input:focus {
+  border-color: #2874f0;
+  box-shadow: 0 0 4px rgba(40, 116, 240, 0.3);
+}
+
+.save-address-button {
+  background-color: #2874f0;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.save-address-button:hover {
+  background-color: #185bd3;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}

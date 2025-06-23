@@ -1,0 +1,11 @@
+.network-status-banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ff4444;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 9999;
+}

@@ -1,0 +1,61 @@
+.order-summary-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.order-summary-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.order-details {
+  margin-bottom: 20px;
+}
+
+.order-details p {
+  font-size: 16px;
+  margin: 6px 0;
+  color: #555;
+}
+
+.total-amount {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2874f0;
+  margin-top: 16px;
+  text-align: right;
+}
+
+.thank-you {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1a8917;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.order-summary-button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 24px;
+  background-color: #2874f0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.order-summary-button:hover {
+  background-color: #0b5be2;
+}
