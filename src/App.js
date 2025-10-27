@@ -92,7 +92,7 @@ const App = () => {
       <NetworkStatus />
 
       {/* Splash screen shows only when app opens first */}
-      {showSplash && location.pathname === '/' ? (
+      {showSplash && location.pathname === '/' ? (  
         <SplashScreen />
       ) : (
         <Routes>
